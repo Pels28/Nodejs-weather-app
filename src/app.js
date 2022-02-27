@@ -34,7 +34,7 @@ app.get('/help', (req, res) => {
 
 
 app.get('/about', (req, res) => {
-    res.render('index', {
+    res.render('about', {
         title: 'About Us',
         name: 'Kwesi Addo Pels'
     })
